@@ -44,7 +44,7 @@ try {
     "mongodb+srv://rahulsitaram0013:<db_password>@cluster0.r7pif.mongodb.net/Heart-Predection?retryWrites=true&w=majority&appName=Cluster0"
   );
   app.listen(PORT, () => {
-    console.log(`Server running on http://localhost:${PORT}`);
+    console.log(`Server running is Running at PORT : ${PORT}`);
   });
 } catch (err) {
   console.log(err);
