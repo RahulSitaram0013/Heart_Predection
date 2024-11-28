@@ -41,7 +41,7 @@ app.use("/AdminAccess/UserInfo",GetUserData);
 // Connect to MongoDB Atlas and start the server
 try {
   connectToMongoDBAtlas(
-    "mongodb+srv://rahulsitaram0013:<db_password>@cluster0.r7pif.mongodb.net/Heart-Predection?retryWrites=true&w=majority&appName=Cluster0"
+    "mongodb+srv://rahulsitaram0013:1dXsRZDWafHrEohK@cluster0.r7pif.mongodb.net/Heart-Predection?retryWrites=true&w=majority&appName=Cluster0"
   );
   app.listen(PORT, () => {
     console.log(`Server running is Running at PORT : ${PORT}`);
