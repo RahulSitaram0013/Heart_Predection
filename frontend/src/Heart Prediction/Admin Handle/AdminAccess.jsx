@@ -19,7 +19,7 @@ function AdminAccess() {
 
   const onSubmit = async (data) => {
     try {
-      await fetch("http://localhost:5000/AdminAccess", {
+      await fetch("https://heart-predection.onrender.com/AdminAccess", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

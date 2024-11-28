@@ -12,7 +12,7 @@ function UserInfo() {
     const UserDetails = async () => {
       setIsLoading(true); // Show loading state while fetching data
       try {
-        const response = await fetch("http://localhost:5000/AdminAccess/UserInfo", {
+        const response = await fetch("https://heart-predection.onrender.com/AdminAccess/UserInfo", {
           method: "GET",
           headers: {
             "Content-Type": "application/json",
