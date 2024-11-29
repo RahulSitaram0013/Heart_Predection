@@ -36,6 +36,8 @@ app.use("/AdminAccess/AdminDoctorInfo",UpdateDoctorData);
 app.use("/AdminAccess/AdminDoctorInfo",DeleteDoctorData);
 //        Get User Data
 app.use("/AdminAccess/UserInfo",GetUserData);
+//        Get User Feedback
+app.use("/AdminAccess/FeedbackInfo",ShowFeedback);
 
 
 // Connect to MongoDB Atlas and start the server
