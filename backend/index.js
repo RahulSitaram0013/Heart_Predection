@@ -24,6 +24,8 @@ app.use("/UserAccess/UserLogout",DeleteUserData);
 app.use("/UserAccess/UserFeedback",UserFeedback);
 //        Show Users Feedback
 app.use("/UserAccess/userFeedback",ShowFeedback);
+//        Get Doctor Data
+app.use('/UserAccess/DoctorInfo',GetDoctorData);
 
 // Admin Handling
 //        Creating Doctor Data
