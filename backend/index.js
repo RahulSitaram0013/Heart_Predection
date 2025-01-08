@@ -1,5 +1,5 @@
 // ChangeImprotTo-import
-Improt express from "express";
+import express from "express";
 import cors from "cors";
 import connectToMongoDBAtlas from "./connect.js";
 import {UserData,GetUserData} from "./Routes/UserPannel.js";
