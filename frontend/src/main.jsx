@@ -4,6 +4,6 @@ import App from './Heart Prediction/App'
 // ConvertApppkToApp
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Apppk />
+    <App/>
   </StrictMode>,
 )
